@@ -1,4 +1,3 @@
-
 html *{
     font-family: Cambria, Georgia, serif;font-weight:500;line-height: 1.3rem;
 }
@@ -85,9 +84,6 @@ html *{
     text-align: left;
     font-size: 36px;
 }
-/* .work_experience_role{
-    border-top: 2px solid rgb(216, 216, 216);
-} */
 .work_title{
     font-size: 22px;
 }
@@ -96,9 +92,10 @@ html *{
 }
 .work_description{
     font-size: 15px;
+    font-weight: bold;
 }
-.work_description .per_store{
-    font-style: italic;
+.work_description .details{
+    font-size: 15px;
 }
 .education{
     padding: 20px;
