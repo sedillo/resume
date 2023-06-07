@@ -16,3 +16,12 @@ Create an IAM user with AWS CodeCommit permissions:
 Add the IAM user's AWS access key and secret access key as GitHub repository secrets:
 - Go to your GitHub repository's "Settings" and click on "Secrets".
 - Click "New repository secret" and add two secrets, "AWS_ACCESS_KEY_ID" and "AWS_SECRET_ACCESS_KEY", with the values obtained in step 2.
+
+Create Resumes
+```bash
+mkdir out
+docker build -t resume-builder .
+
+docker run --rm -it -v ${PWD}:/app -w /app resume-builder
+docker run --rm -it -v ${PWD}:/app -w /app --entrypoint=/usr/bin/google-chrome browserless/chrome:latest -headless -disable-gpu --no-sandbox --print-to-pdf=out/resume.pdf out/resume.html
+```

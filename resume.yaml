@@ -1,0 +1,126 @@
+---
+# -----------------------------------------------------------------------------
+# Header
+# -----------------------------------------------------------------------------
+name: Mike Sedillo
+headline: Software Engineer / DevOps Engineer / Product Owner
+description: Mike Sedillo is a skilled Software Engineer with experience in development and deployment of software in cloud and hybrid IoT architectures
+url: https://www.linkedin.com/in/mikesedillo
+
+formats:
+  pdf:
+    url: https://mikesedillo.me/resume/Mike-Sedillo-Resume.pdf
+    filename: Mike-Sedillo-Resume.pdf
+  word:
+    url: https://mikesedillo.me/resume/Mike-Sedillo-Resume.docx
+    filename: Mike-Sedillo-Resume.docx
+  txt:
+    url: https://mikesedillo.me/resume/resume.txt
+    narrow_url: https://mikesedillo.me/resume/resume-narrow.txt
+  json:
+    url: https://mikesedillo.me/resume/resume.json
+  gemini: gemini://mikesedillo.co/resume.gmi
+  gopher: gopher://mikesedillo.co:70/0/resume.txt
+  finger: resume@mikesedillo.co
+
+contact:
+  email: mike.sedillo@gmail.com
+  web:
+    url: https://www.linkedin.com/in/mikesedillo
+    title: Linkedin
+  location:
+    title: Austin, TX
+    url: https://en.wikipedia.org/wiki/Austin,_Texas
+
+summary: >
+  Software Engineer with a background in systems administration, cloud, and DevOps with over 10 years of experience. Passionate about streamlining deployments on Kubernetes and containerized architectures.
+
+# -----------------------------------------------------------------------------
+# Experience
+# -----------------------------------------------------------------------------
+experience:
+  - title: Software Engineer, DevOps Engineer, Product Owner
+    org: Intel Corporation
+    start: July 2018
+    end: Present
+    location: Austin, TX
+    details: 
+      - Project Management | Prioritized activities, created project roadmap, advocated for 12-factor application standards, managed customer tickets and expectations.
+      - Observability | Defined SLAs/KPIs, implemented technologies including Prometheus, Grafana dashboards, Slack and Email Alert Managers.
+      - Infrastructure as Code (IaC) | Focused on customizing and deploying platforms using Ansible, Terraform and other customized tools.
+      - Microservice Deployment | Focused on customer education, deployment, management, and migration to a microservices architecture.
+      - Orchestration | Utilized orchestration tools like Kubernetes (k8s), Rancher (k3s), Google GKE, and Amazon EKS to deploy a variety of applications.
+      - On-prem, Hybrid, Cloud Deployments | Managed deployments in varying industries spanning data centers to IoT. Required adaptability and analysis to determine the right tool for the job.
+      - Linux Administration | Worked with Linux tools, including kernel customizations, GNU tooling, Linux server administration, shell programming, networking, etc.
+
+  - title: Software Engineer
+    org: Intel
+    start: January 2014
+    end: July 2018
+    location: Chandler, AZ
+    details:
+      - Certification Environment | Developed under both ISO 26262 and DO-178B/ C Standards. Wrote software requirements, use cases, architecture documents, etc.
+      - Linux Device Drivers | Compiled device drivers to test Linux OS performance spanning multiple areas, including debugfs, network stack, hardware devices, mapped to IO memory, and others.
+
+  - title: Software Engineer
+    org: Microchip Technology
+    start: May 2012
+    end: August 2013
+    location: Chandler, AZ
+    details:
+      - GCC Compilers | Supported Microchip's compilers by porting GCC compilers to work on Microchip's proprietary 16 and 32-bit microprocessors.
+      - Python Development | Automated the generation of header, linker, and assembly files that supported C/C++ compilers. Heavily focused on programmatically representing CPUs using Python classes.
+      - Embedded Systems Development | Wrote C libraries for oscillators, I2C, GPIOs, EEPROM, interrupts, and different memory implementations.
+      - Microcontroller Development | Supported customer embedded C/C++ projects and debugged GCC compiler and linker issues. Optimized C and assembly code for applications running on microprocessor environments.
+
+# -----------------------------------------------------------------------------
+# Education
+# -----------------------------------------------------------------------------
+education:
+  - title: Master and Bachelors of Engineering 4+1 Degree
+    org: Arizona State University
+    major: Computer Engineering
+    start: 2010
+    end: 2015
+    location: Tempe, AZ
+
+# -----------------------------------------------------------------------------
+# Skills
+# -----------------------------------------------------------------------------
+skills:
+  products:
+    - 12 Factor App Methodology
+    - AWS (EC2, IAM, S3, ECS, EFS, CloudFront, Lambda, Route53, Load Balancing, CodePipelines, etc)
+    - Ansible
+    - Apache
+    - Arch Linux
+    - Artifactory
+    - Bash and Shell
+    - BitBucket
+    - C/C++
+    - C Compilers Linkers
+    - CI/CD
+    - Cloud
+    - Debian
+    - DNS Management
+    - Docker with compose
+    - Git
+    - GitHub with Actions, Workflows
+    - GitLab with CI/CD
+    - HTML/CSS
+    - IBM Doors/RTC/RQM
+    - Infrastructure as Code
+    - Jira
+    - Kubernetes k3s and k8s
+    - Makefile and GNU autoconf tools
+    - MariaDB/MySQL
+    - MongoDB
+    - Nginx
+    - PHP
+    - Packer
+    - PostgreSQL
+    - Python
+    - RedHat/CentOS
+    - Reverse Proxy
+    - Test-Driven Development (TDD)
+    - Ubuntu
