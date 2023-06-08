@@ -3,7 +3,7 @@
 # Header
 # -----------------------------------------------------------------------------
 name: Mike Sedillo
-headline: Software Engineer / DevOps Engineer / Product Owner
+headline: Software Engineer / DevOps Engineer 
 description: Mike Sedillo is a skilled Software Engineer with experience in development and deployment of software in cloud and hybrid IoT architectures
 url: https://www.linkedin.com/in/mikesedillo
 
@@ -31,6 +31,8 @@ contact:
   location:
     title: Austin, TX
     url: https://en.wikipedia.org/wiki/Austin,_Texas
+  phone: 480.490.5616
+
 
 summary: >
   Software Engineer with a background in systems administration, cloud, and DevOps with over 10 years of experience. Passionate about streamlining deployments on Kubernetes and containerized architectures.
@@ -39,13 +41,12 @@ summary: >
 # Experience
 # -----------------------------------------------------------------------------
 experience:
-  - title: Software Engineer, DevOps Engineer, Product Owner
+  - title: Software Engineer, DevOps Engineer
     org: Intel Corporation
     start: July 2018
     end: Present
     location: Austin, TX
     details: 
-      - Project Management | Prioritized activities, created project roadmap, advocated for 12-factor application standards, managed customer tickets and expectations.
       - Observability | Defined SLAs/KPIs, implemented technologies including Prometheus, Grafana dashboards, Slack and Email Alert Managers.
       - Infrastructure as Code (IaC) | Focused on customizing and deploying platforms using Ansible, Terraform and other customized tools.
       - Microservice Deployment | Focused on customer education, deployment, management, and migration to a microservices architecture.
@@ -54,7 +55,7 @@ experience:
       - Linux Administration | Worked with Linux tools, including kernel customizations, GNU tooling, Linux server administration, shell programming, networking, etc.
 
   - title: Software Engineer
-    org: Intel
+    org: Intel Corporation
     start: January 2014
     end: July 2018
     location: Chandler, AZ

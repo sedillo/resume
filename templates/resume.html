@@ -16,10 +16,10 @@
     <!-- Open Graph -->
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="Josh Beard's Resume" />
+    <meta property="og:title" content="Mike Sedillo's Resume" />
     <meta property="og:description" content="{{ resume['description'] }}" />
     <meta property="og:url" content="{{ resume['url'] }}" />
-    <meta property="og:site_name" content="Josh Beard's Resume" />
+    <meta property="og:site_name" content="Mike Sedillo's Resume" />
     <meta property="og:image" content="{{ resume['url'] }}/assets/img/resume-og.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -49,14 +49,12 @@
                                 href="mailto:{{ resume['contact']['email'] }}">{{ resume['contact']['email'] }}</a>
                         </li>
                         <li>
+				<a href="tel:{{ resume['contact']['phone'] }}">{{ resume['contact']['phone'] }}</a>
+                        </li>
+                        <li>
                             <a href="{{ resume['contact']['web']['url'] }}"><img
                                 src="assets/img/globe-americas-solid.png" alt="web:" class="icon" /></a><a
                                 href="{{ resume['contact']['web']['url'] }}">{{ resume['contact']['web']['title'] }}</a>
-                        </li>
-                        <li>
-                            <a href="{{ resume['contact']['location']['url'] }}"><img
-                                src="assets/img/map-marker-solid.png" alt="location:" class="icon" /></a><a
-                                href="{{ resume['contact']['location']['url'] }}">{{ resume['contact']['location']['title'] }}</a>
                         </li>
                     </ul>
                 </div>
@@ -64,12 +62,12 @@
         </div>
         <div id="other_formats">
             <ul>
-                <li><a href="Josh-Beard-Resume.pdf"><img
+                <li><a href="Mike-Sedillo-Resume.pdf"><img
                         src="assets/img/file-pdf-regular.png" alt="PDF" class="icon" /></a><a
-                        href="Josh-Beard-Resume.pdf">Pdf</a></li>
-                <li><a href="Josh-Beard-Resume.docx"><img
+                        href="Mike-Sedillo-Resume.pdf">Pdf</a></li>
+                <li><a href="Mike-Sedillo-Resume.docx"><img
                         src="assets/img/file-word-regular.png" alt="Word" class="icon" /></a><a
-                        href="Josh-Beard-Resume.docx">Docx</a></li>
+                        href="Mike-Sedillo-Resume.docx">Docx</a></li>
                 <li><a href="https://github.com/mikesedillo/resume/blob/master/README.md"><img
                         src="assets/img/markdown-brands.png" alt="Markdown" class="icon" /></a><a
                         href="https://github.com/mikesedillo/resume/blob/master/README.md">Md</a></li>
@@ -91,7 +89,7 @@
                 <div class="section_content">
                     {% for job in resume['experience'] %}
                     <article class="job">
-                        <h3 class="position">{{ job['title'] }} with {{ job['org'] }}</h3>
+                        <h3 class="position">{{ job['org'] }}:  {{ job['title'] }}</h3>
                         <p><strong>{{ job['start'] }} - {{ job['end'] }} · {{ job['location'] }}</strong></p>
                         <ul>
                             {%- for item in job['details'] %}
