@@ -23,5 +23,5 @@ mkdir out
 docker build -t resume-builder .
 
 docker run --rm -it -v ${PWD}:/app -w /app resume-builder
-docker run --rm -it -v ${PWD}:/app -w /app --entrypoint=/usr/bin/google-chrome browserless/chrome:latest -headless -disable-gpu --no-sandbox --print-to-pdf=out/resume.pdf out/resume.html
+docker run --rm -it -v ${PWD}:/app -w /app --entrypoint=/usr/bin/google-chrome browserless/chrome:latest -headless -disable-gpu --no-sandbox --print-to-pdf=out/Mike-Sedillo-Resume.pdf out/resume.html
 ```
