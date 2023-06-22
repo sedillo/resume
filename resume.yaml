@@ -25,9 +25,12 @@ formats:
 
 contact:
   email: mike.sedillo@gmail.com
-  web:
+  linkedin:
     url: https://www.linkedin.com/in/mikesedillo
     title: Linkedin
+  web:
+    url: https://sedillo.codes
+    title: Personal Site
   location:
     title: Austin, TX
     url: https://en.wikipedia.org/wiki/Austin,_Texas
@@ -44,7 +47,7 @@ experience:
   - title: Software Engineer, DevOps Engineer
     org: Intel Corporation
     start: July 2018
-    end: Present
+    end: May 2023
     location: Austin, TX
     details: 
       - Observability | Defined SLAs/KPIs, implemented technologies including Prometheus, Grafana dashboards, Slack and Email Alert Managers.

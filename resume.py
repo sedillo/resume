@@ -23,7 +23,7 @@ resume_yaml = os.environ.get('RESUME_YAML', 'resume.yaml')
 
 # HTML
 html_template = os.environ.get('RESUME_HTML_TEMPLATE', 'resume.html')
-html_out = os.environ.get('RESUME_HTML_OUT', 'out/resume.html')
+html_out = os.environ.get('RESUME_HTML_OUT', 'out/index.html')
 
 # css will be embedded in the html
 css_file = os.environ.get('RESUME_CSS_TEMPLATE', 'style.css')

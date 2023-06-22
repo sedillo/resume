@@ -5,7 +5,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
     <title>{{ resume['name'] }}</title>
-    <base href="{{ resume['url'] }}/" />
     <link rel="canonical" href="{{ resume['url'] }}" />
     <meta name="description" content="{{ resume['description'] }}" />
     <meta name="keywords" content="mikeua sedillo, mike, mikesedillo, jashsedillo, devops, sysadmin, colorado springs, mike sedillo colorado springs, mike sedillo colorado, mike sedillo devops, mike sedillo denver, mikeua sedillo colorado springs, mikeua sedillo devops, devops engineer, colorado springs devops, colorado springs devops engineer, colorado devops engineer, denver devops engineer, mike sedillo resume, mikeua sedillo resume, devops resume, devops engineer resume, sysadmin resume, systems administrator resume, mike sedillo sysadmin, mike sedillo systems administrator, mike sedillo apogee engineering, mikeua sedillo apogee engineering, mike sedillo usgs, mike sedillo puppet, mike sedillo dsdk12" />
@@ -49,7 +48,14 @@
                                 href="mailto:{{ resume['contact']['email'] }}">{{ resume['contact']['email'] }}</a>
                         </li>
                         <li>
-				<a href="tel:{{ resume['contact']['phone'] }}">{{ resume['contact']['phone'] }}</a>
+                            <a href="tel:{{ resume['contact']['phone'] }}"><img
+                                src="assets/img/phone.png" class="icon" /></a><a
+				href="tel:{{ resume['contact']['phone'] }}">{{ resume['contact']['phone'] }}</a>
+                        </li>
+                        <li>
+                            <a href="{{ resume['contact']['linkedin']['url'] }}"><img
+                                src="assets/img/globe-americas-solid.png" alt="web:" class="icon" /></a><a
+                                href="{{ resume['contact']['linkedin']['url'] }}">{{ resume['contact']['linkedin']['title'] }}</a>
                         </li>
                         <li>
                             <a href="{{ resume['contact']['web']['url'] }}"><img
@@ -65,12 +71,6 @@
                 <li><a href="Mike-Sedillo-Resume.pdf"><img
                         src="assets/img/file-pdf-regular.png" alt="PDF" class="icon" /></a><a
                         href="Mike-Sedillo-Resume.pdf">Pdf</a></li>
-                <li><a href="Mike-Sedillo-Resume.docx"><img
-                        src="assets/img/file-word-regular.png" alt="Word" class="icon" /></a><a
-                        href="Mike-Sedillo-Resume.docx">Docx</a></li>
-                <li><a href="https://github.com/mikesedillo/resume/blob/master/README.md"><img
-                        src="assets/img/markdown-brands.png" alt="Markdown" class="icon" /></a><a
-                        href="https://github.com/mikesedillo/resume/blob/master/README.md">Md</a></li>
                 <li><a href="resume.txt"><img
                         src="assets/img/file-alt-solid.png" alt="Plain Text" class="icon" /></a><a
                         href="resume.txt">Txt</a></li>
