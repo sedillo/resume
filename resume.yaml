@@ -1,127 +1,91 @@
----
-# -----------------------------------------------------------------------------
-# Header
-# -----------------------------------------------------------------------------
-name: Mike Sedillo
-headline: Software Engineer / DevOps Engineer 
-description: Mike Sedillo is a skilled Software Engineer with experience in development and deployment of software in cloud and hybrid IoT architectures
-url: https://www.linkedin.com/in/mikesedillo
+BasicInfo:
+  FirstName: Mike
+  LastName: Sedillo
+  Photo: img/avatar.jpg
+  Contacts:
+    - Icon: fas fa-phone
+      Info: 480.490.5616
+    - Icon: fas fa-envelope
+      Info: mike.sedillo@gmail.com
+    - Icon: fas fa-globe
+      Info: https://www.linkedin.com/in/mikesedillo
+    - Icon: fas fa-map-marker-alt
+      Info: Austin, TX
 
-formats:
-  pdf:
-    url: https://mikesedillo.me/resume/Mike-Sedillo-Resume.pdf
-    filename: Mike-Sedillo-Resume.pdf
-  word:
-    url: https://mikesedillo.me/resume/Mike-Sedillo-Resume.docx
-    filename: Mike-Sedillo-Resume.docx
-  txt:
-    url: https://mikesedillo.me/resume/resume.txt
-    narrow_url: https://mikesedillo.me/resume/resume-narrow.txt
-  json:
-    url: https://mikesedillo.me/resume/resume.json
-  gemini: gemini://mikesedillo.co/resume.gmi
-  gopher: gopher://mikesedillo.co:70/0/resume.txt
-  finger: resume@mikesedillo.co
+Profile: A seasoned Software Engineer with a rich background in systems administration, cloud, and DevOps. Over 10 years of experience in the field with a special interest in streamlining deployments on Kubernetes and containerized architectures. Recognized for the ability to develop and deploy software in diverse environments including cloud and hybrid IoT architectures.
 
-contact:
-  email: mike.sedillo@gmail.com
-  web:
-    url: https://www.linkedin.com/in/mikesedillo
-    title: Linkedin
-  location:
-    title: Austin, TX
-    url: https://en.wikipedia.org/wiki/Austin,_Texas
-  phone: 480.490.5616
+Experience:
+  - Employer: Intel Corporation
+    Place: Austin, TX
+    Positions:
+      - Title: Software Engineer, DevOps Engineer
+        Date: July 2018 - Present
+        Details:
+          - Defining SLAs/KPIs and implementing observability technologies.
+          - Specializing in Infrastructure as Code (IaC), deploying platforms using Ansible, Terraform, etc.
+          - Educating customers, managing deployments, and migrations to a microservices architecture.
+          - Utilizing Kubernetes (k8s), Rancher (k3s), Google GKE, Amazon EKS for orchestration and deployment.
+          - Managing deployments across industries, adaptable strategies, and tools for every situation.
+          - Performing Linux Administration tasks including kernel customizations, GNU tooling, Linux server administration, shell programming, networking, etc.
+        Badges: ['Ansible', 'Terraform', 'Kubernetes', 'Prometheus', 'Grafana', 'Python', 'Bash']
 
+      - Title: Software Engineer
+        Date: January 2014 - July 2018
+        Details:
+          - Developing software in line with ISO 26262 and DO-178B/C Standards.
+          - Compiling Linux device drivers to test OS performance.
+        Badges: ['Linux', 'ISO 26262', 'DO-178B/C', 'C/C++']
 
-summary: >
-  Software Engineer with a background in systems administration, cloud, and DevOps with over 10 years of experience. Passionate about streamlining deployments on Kubernetes and containerized architectures.
+  - Employer: Microchip Technology
+    Place: Chandler, AZ
+    Positions:
+      - Title: Software Engineer
+        Date: May 2012 - August 2013
+        Details:
+          - Supporting Microchip's compilers by porting GCC compilers.
+          - Automating generation of support files for C/C++ compilers using Python.
+          - Developing C libraries for embedded systems and microcontroller development.
+        Badges: ['GCC', 'Python', 'C/C++', 'Embedded Systems']
 
-# -----------------------------------------------------------------------------
-# Experience
-# -----------------------------------------------------------------------------
-experience:
-  - title: Software Engineer, DevOps Engineer
-    org: Intel Corporation
-    start: July 2018
-    end: Present
-    location: Austin, TX
-    details: 
-      - Observability | Defined SLAs/KPIs, implemented technologies including Prometheus, Grafana dashboards, Slack and Email Alert Managers.
-      - Infrastructure as Code (IaC) | Focused on customizing and deploying platforms using Ansible, Terraform and other customized tools.
-      - Microservice Deployment | Focused on customer education, deployment, management, and migration to a microservices architecture.
-      - Orchestration | Utilized orchestration tools like Kubernetes (k8s), Rancher (k3s), Google GKE, and Amazon EKS to deploy a variety of applications.
-      - On-prem, Hybrid, Cloud Deployments | Managed deployments in varying industries spanning data centers to IoT. Required adaptability and analysis to determine the right tool for the job.
-      - Linux Administration | Worked with Linux tools, including kernel customizations, GNU tooling, Linux server administration, shell programming, networking, etc.
+Education:
+  - Course: Master and Bachelors of Engineering 4+1 Degree
+    Place: Arizona State University
+    Date: 2010 - 2015
+    Details: Major in Computer Engineering
 
-  - title: Software Engineer
-    org: Intel Corporation
-    start: January 2014
-    end: July 2018
-    location: Chandler, AZ
-    details:
-      - Certification Environment | Developed under both ISO 26262 and DO-178B/ C Standards. Wrote software requirements, use cases, architecture documents, etc.
-      - Linux Device Drivers | Compiled device drivers to test Linux OS performance spanning multiple areas, including debugfs, network stack, hardware devices, mapped to IO memory, and others.
+Skills:
+  - Family: Programming
+    Items:
+      - C/C++
+      - Python
+      - Bash and Shell
+      - Makefile and GNU autoconf tools
+      - SQL
 
-  - title: Software Engineer
-    org: Microchip Technology
-    start: May 2012
-    end: August 2013
-    location: Chandler, AZ
-    details:
-      - GCC Compilers | Supported Microchip's compilers by porting GCC compilers to work on Microchip's proprietary 16 and 32-bit microprocessors.
-      - Python Development | Automated the generation of header, linker, and assembly files that supported C/C++ compilers. Heavily focused on programmatically representing CPUs using Python classes.
-      - Embedded Systems Development | Wrote C libraries for oscillators, I2C, GPIOs, EEPROM, interrupts, and different memory implementations.
-      - Microcontroller Development | Supported customer embedded C/C++ projects and debugged GCC compiler and linker issues. Optimized C and assembly code for applications running on microprocessor environments.
+  - Family: Cloud
+    Items:
+      - AWS (EC2, IAM, S3, ECS, EFS, CloudFront, Lambda, Route53, Load Balancing, CodePipelines, etc.)
+      - Kubernetes k3s and k8s
+      - Docker with compose
+      - Infrastructure as Code
 
-# -----------------------------------------------------------------------------
-# Education
-# -----------------------------------------------------------------------------
-education:
-  - title: Master and Bachelors of Engineering 4+1 Degree
-    org: Arizona State University
-    major: Computer Engineering
-    start: 2010
-    end: 2015
-    location: Tempe, AZ
+  - Family: Developer Tools
+    Items:
+      - Git
+      - GitHub with Actions, Workflows
+      - GitLab with CI/CD
+      - IBM Doors/RTC/RQM
+      - BitBucket
 
-# -----------------------------------------------------------------------------
-# Skills
-# -----------------------------------------------------------------------------
-skills:
-  products:
-    - 12 Factor App Methodology
-    - AWS (EC2, IAM, S3, ECS, EFS, CloudFront, Lambda, Route53, Load Balancing, CodePipelines, etc)
-    - Ansible
-    - Apache
-    - Arch Linux
-    - Artifactory
-    - Bash and Shell
-    - BitBucket
-    - C/C++
-    - C Compilers Linkers
-    - CI/CD
-    - Cloud
-    - Debian
-    - DNS Management
-    - Docker with compose
-    - Git
-    - GitHub with Actions, Workflows
-    - GitLab with CI/CD
-    - HTML/CSS
-    - IBM Doors/RTC/RQM
-    - Infrastructure as Code
-    - Jira
-    - Kubernetes k3s and k8s
-    - Makefile and GNU autoconf tools
-    - MariaDB/MySQL
-    - MongoDB
-    - Nginx
-    - PHP
-    - Packer
-    - PostgreSQL
-    - Python
-    - RedHat/CentOS
-    - Reverse Proxy
-    - Test-Driven Development (TDD)
-    - Ubuntu
+  - Family: Misc
+    Items:
+      - Apache
+      - Arch Linux
+      - Artifactory
+      - Debian
+      - RedHat/CentOS
+      - Ubuntu
+
+Languages:
+  - Name: English
+    Level: Native
