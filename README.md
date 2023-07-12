@@ -1,27 +1,16 @@
-# Resume Sync to AWS CodeCommit
+# Resume
 
-Set up an AWS CodeCommit repository:
-
-- Sign in to the AWS Management Console and open the AWS CodeCommit console at https://console.aws.amazon.com/codecommit/.
-- Click "Create repository" and follow the instructions to create a new repository.
-
-Create an IAM user with AWS CodeCommit permissions:
-- Open the IAM console at https://console.aws.amazon.com/iam/.
-- Create a new user 
-- Attach the "AWSCodeCommitPowerUser" managed policy from the "Attach policies directly" dropdown.
-- Create user, then click on username, security credentials.
-- Grant programmatic access.
-- Save the access key ID and secret access key for later use.
-
-Add the IAM user's AWS access key and secret access key as GitHub repository secrets:
-- Go to your GitHub repository's "Settings" and click on "Secrets".
-- Click "New repository secret" and add two secrets, "AWS_ACCESS_KEY_ID" and "AWS_SECRET_ACCESS_KEY", with the values obtained in step 2.
-
-Create Resumes
+## Quick build
 ```bash
-mkdir out
-docker build -t resume-builder .
+docker run --rm -v $(pwd):/src klakegg/hugo:0.107.0-ext-alpine --destination=out --minify
+docker run --name some-nginx -v -it --rm $PWD/out:/usr/share/nginx/html:ro nginx
+```
 
-docker run --rm -it -v ${PWD}:/app -w /app resume-builder
-docker run --rm -it -v ${PWD}:/app -w /app --entrypoint=/usr/bin/google-chrome browserless/chrome:latest -headless -disable-gpu --no-sandbox --print-to-pdf=out/Mike-Sedillo-Resume.pdf out/resume.html
+## Quick build
+
+Based on https://themes.gohugo.io/themes/almeida-cv/
+
+```bash
+hugo new site resume && cd resume
+git submodule add https://github.com/ineesalmeida/almeida-cv.git themes/almeida-cv
 ```
