@@ -1,0 +1,102 @@
+BasicInfo:
+  FirstName: Mike
+  LastName: Sedillo
+  Photo: img/avatar.jpg
+  Contacts:
+    - Icon: fas fa-phone
+      Info: 480.490.5616
+    - Icon: fas fa-envelope
+      Info: mike.sedillo@gmail.com
+    - Icon: fas fa-globe
+      Info: https://sedillo.codes
+    - Icon: fas fa-globe
+      Info: https://www.linkedin.com/in/mikesedillo
+    - Icon: fas fa-map-marker-alt
+      Info: Austin, TX
+
+Profile: A seasoned Software Engineer with a rich background in systems administration, cloud, and DevOps. Over 10 years of experience in the field with a special interest in streamlining deployments on Kubernetes and containerized architectures. Recognized for the ability to develop and deploy software in diverse environments including cloud and hybrid IoT architectures.
+
+Experience:
+  - Employer: Intel Corporation
+    Place: Austin, TX
+    Positions:
+      - Title: Software Engineer, DevOps Engineer
+        Date: July 2020 - Present
+        Details:
+          - Defining SLAs/KPIs, requirements gathering, and architecting different devops technologies.
+          - Deployed Infrastructure as Code (IaC), with platforms including Ansible and Terraform
+          - Educating customers, managing deployments, and migrations to a microservices architecture.
+          - Utilizing Docker, Kubernetes (k8s), Rancher (k3s), Google GKE, Amazon EKS for orchestration and deployment.
+          - Managing deployments across industries, adaptable strategies, and tools for every situation.
+        Badges: ['Linux', 'Docker', 'Ansible', 'Terraform', 'Kubernetes', 'Grafana', 'Python', 'Bash']
+
+  - Employer: Intel Corporation
+    Place: Phoenix, AZ
+    Positions:
+      - Title: Linux Software Engineer
+        Date: January 2014 - July 2020
+        Details:
+          - Developing software in line with ISO 26262 and DO-178B/C Standards.
+          - Compiling Linux device drivers to test various platform performance.
+          - Automated kernel configuration and building to optimize for various HW and SW platforms
+          - Performing Linux Administration tasks including, Linux server administration, shell programming, networking, etc.
+        Badges: ['Linux Kernel Modules', 'Linux Administration', 'Ansible', 'C/C++']
+
+  - Employer: Microchip Technology
+    Place: Chandler, AZ
+    Positions:
+      - Title: Linux and C/C++ Software Engineer
+        Date: May 2012 - August 2013
+        Details:
+          - Supporting Microchip's compilers by porting GCC compilers.
+          - Automating generation of support files for C/C++ compilers using Python.
+          - Developing C libraries for embedded systems and microcontroller development.
+        Badges: ['GCC', 'Python', 'C/C++', 'Embedded Systems']
+
+Education:
+  - Course: Master and Bachelors of Engineering 4+1 Degree
+    Place: Arizona State University
+    Date: 2010 - 2015
+    Details: Major in Computer Engineering
+
+Skills:
+  - Family: Programming
+    Items:
+      - C/C++
+      - Python
+      - Bash and Shell
+      - Makefile and GNU autoconf tools
+      - SQL
+
+  - Family: Cloud
+    Items:
+      - AWS (EC2, IAM, S3, ECS, EFS, CloudFront, Lambda, Route53, Load Balancing, CodePipelines, etc.)
+      - Kubernetes k3s and k8s
+      - Docker/Compose
+      - Infrastructure as Code
+
+  - Family: Infrastructure as Code
+    Items:
+      - Ansible
+      - Terraform
+
+  - Family: Developer Tools
+    Items:
+      - Git
+      - GitHub with Actions, Workflows
+      - IBM Doors/RTC/RQM
+      - Artifactory
+      - BitBucket
+
+  - Family: Linux Administration
+    Items:
+      - Apache
+      - Debian
+      - RedHat/CentOS
+      - Ubuntu
+
+Languages:
+  - Name: English
+    Level: Native Languages
+  - Name: Spanish
+    Level: B1 (estimate)
