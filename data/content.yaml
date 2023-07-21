@@ -23,12 +23,12 @@ Experience:
       - Title: Software Engineer, DevOps Engineer
         Date: July 2020 - Present
         Details:
-          - Defining SLAs/KPIs, requirements gathering, and architecting different devops technologies.
-          - Deployed Infrastructure as Code (IaC), with platforms including Ansible and Terraform
-          - Educating customers, managing deployments, and migrations to a microservices architecture.
           - Utilizing Docker, Kubernetes (k8s), Rancher (k3s), Google GKE, Amazon EKS for orchestration and deployment.
-          - Managing deployments across industries, adaptable strategies, and tools for every situation.
-        Badges: ['Linux', 'Docker', 'Ansible', 'Terraform', 'Kubernetes', 'Grafana', 'Python', 'Bash']
+          - Develop, optimize, and refactor Helm charts, including utilizing Kompose to translate Docker Compose files for seamless deployment.
+          - Deployed Infrastructure as Code (IaC), with platforms including Ansible and Terraform.
+          - Utilized Jenkins for source code management, unit testing, code scanning, image scanning, building, packaging, and continuous delivery.
+          - Defining SLAs/KPIs, requirements gathering, and architecting different devops technologies.
+        Badges: ['Linux', 'Docker', 'Ansible', 'Terraform', 'Kubernetes', 'Helm', 'Jenkins', 'Grafana', 'Python', 'Bash']
 
   - Employer: Intel Corporation
     Place: Phoenix, AZ
